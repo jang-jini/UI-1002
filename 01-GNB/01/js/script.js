@@ -9,7 +9,7 @@ $(function () {
     });
 
     // 메뉴에 마우스가 나갔을떄
-    $menu.on("monuseleave", function () {
+    $menu.on("mouseleave", function () {
         $submenu.slideUp();
     });
 });
